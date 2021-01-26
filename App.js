@@ -1,6 +1,6 @@
 import { StatusBar } from 'react-native';
 import React from 'react';
-import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function App() {
   return (
@@ -25,7 +25,7 @@ export default function App() {
         </TouchableOpacity>
       </View>
     </View >
-  );
+  )
 }
 
 const styles = StyleSheet.create({
